@@ -55,7 +55,7 @@ Install the following before running the application:
 3. Execute the SQL script to create the `ebs` database and its tables.
 4. Ensure the MySQL account used by the application has permission to access the database.
 
-> **Important:** The current `Conn.java` uses a local MySQL connection with username `root` and password `password`. Update the connection settings in `src/electricity/billing/system/Conn.java` to match your local MySQL configuration. Do not commit real credentials.
+> **Important:** The current `Conn.java` uses a local MySQL connection with username `root` and password `password`. Update the connection settings in `src/electricity/billing/system/Conn.java` to match your local MySQL configuration.
 
 ## Configure Dependencies
 
